@@ -32,8 +32,13 @@ h4 {
   margin: 0 0 20px 0;
 }
 
+.center {
+  text-align: center;
+}
+
 .primary-button {
   background-color: #516689;
+  display: inline-block;
   color: white;
   border: none;
   padding: 10px 35px;
@@ -113,7 +118,6 @@ h4 {
 .box {
   display: flex;
   align-items: center;
-
   padding: 10px 15px;
   gap: 8px;
   overflow: hidden;
@@ -137,26 +141,26 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 500px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
   color: black;
-}
-
-.section3 .overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 /* Sektion 4 */
 .section4 {
   background-color: #ccd4d5;
+  padding: 60px;
+  height: 500px;
   color: black;
 }
 
 /* Sektion 5 */
 .section5 {
   background-color: #ffffff;
+  padding: 60px;
+  height: 500px;
   color: black;
 }
 .box img {
@@ -174,8 +178,23 @@ h4 {
 /* Sektion 6 */
 .section6 {
   background-color: #516689;
+  padding: 60px;
+  height: 500px;
+  color: white;
+}
+.section6 img {
+  align-items: center;
+  max-width: 10%;
+  height: auto;
+  margin-bottom: auto;
 }
 
+.section6 p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 100;
+  color: #ffffff;
+}
 /* Sektion 7 - Baggrundsbillede */
 .section7 {
   background: url("section7-bg.jpg") no-repeat center center/cover;

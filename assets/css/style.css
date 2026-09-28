@@ -236,7 +236,7 @@ p {
 .section6 {
   background-color: #516689;
   padding: 70px;
-  height: 100%x;
+  height: 100%;
   color: white;
 }
 
@@ -273,7 +273,7 @@ p {
 }
 /* Sektion 7 - Baggrundsbillede */
 .section7 {
-  background: url("../img/section7-bg.jpg") no-repeat center center/cover;
+  background: url("../img/Tunø_baggrund.png") no-repeat center center/cover;
   height: 100vh;
   color: white;
   display: flex;
@@ -281,7 +281,6 @@ p {
   align-items: center; /* Vertikal centreret indhold */
   gap: 50px; /* Afstand mellem billede og tekst */
   height: fit-content;
-  background: #ffffff;
 }
 
 .info_image_7 img {

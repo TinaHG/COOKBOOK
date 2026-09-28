@@ -66,7 +66,7 @@ h4 {
 
 /* hero - Header med baggrundsbillede */
 .hero {
-  background: url(/assets/img/Homepage_header.png);
+  background: url("../img/Homepage_header.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -137,7 +137,7 @@ h4 {
 }
 /* Sektion 3 - Baggrundsbillede */
 .section3 {
-  background: url(/assets/img/Homepage_section\ 1.png);
+  background: url("../img/Homepage_section 1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -197,7 +197,7 @@ h4 {
 }
 /* Sektion 7 - Baggrundsbillede */
 .section7 {
-  background: url("section7-bg.jpg") no-repeat center center/cover;
+  background: url("../img/section7-bg.jpg") no-repeat center center/cover;
   height: 100vh;
   color: white;
   display: flex;

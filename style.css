@@ -76,7 +76,7 @@ p {
 
 /* hero - Header med baggrundsbillede */
 .hero {
-  background: url("../img/Homepage_header.png");
+  background: url("img/Homepage_header.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -145,7 +145,7 @@ p {
 }
 /* Sektion 3 - talerkner med mad */
 .section3 {
-  background: url("../img/Homepage_section 1.png");
+  background: url("img/Homepage_section 1.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -274,7 +274,7 @@ p {
 
 /* Sektion 7 - Baggrundsbillede */
 .section7 {
-  background: url("../img/Tunø_baggrund.png");
+  background: url("img/Tunø_baggrund.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

@@ -271,16 +271,27 @@ p {
   margin-left: 10px;
   color: #ffffff;
 }
+
 /* Sektion 7 - Baggrundsbillede */
 .section7 {
-  background: url("../img/Tunø_baggrund.png") no-repeat center center/cover;
-  height: 100vh;
-  color: white;
+  background: url("../img/Tunø_baggrund.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.info_7 {
   display: flex;
   justify-content: center;
   align-items: center; /* Vertikal centreret indhold */
   gap: 50px; /* Afstand mellem billede og tekst */
   height: fit-content;
+  background: #ffffff;
 }
 
 .info_image_7 img {
@@ -312,6 +323,7 @@ p {
   background-color: #66556a;
   height: 100%;
   padding: 40px;
+  text-align: center;
 }
 
 .section8 p {
